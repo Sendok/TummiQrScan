@@ -69,7 +69,7 @@ export default function HistoryPage() {
     return (
        <div className="flex flex-col min-h-screen bg-background text-foreground">
         <Header />
-        <main className="flex-grow container mx-auto px-4 py-8">
+        <main className="flex-grow container mx-auto px-4 pt-8 pb-20 sm:py-8">
           <h2 className="text-3xl font-headline font-bold mb-6 text-primary-foreground">Scan History</h2>
           <p>Loading history...</p>
         </main>
@@ -81,7 +81,7 @@ export default function HistoryPage() {
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground">
       <Header />
-      <main className="flex-grow container mx-auto px-4 py-8">
+      <main className="flex-grow container mx-auto px-4 pt-8 pb-20 sm:py-8">
         <h2 className="text-3xl sm:text-4xl font-headline font-bold mb-8 text-primary-foreground text-center sm:text-left">
           Scan History
         </h2>

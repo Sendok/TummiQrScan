@@ -2,6 +2,7 @@ import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import AppProviders from '@/components/AppProviders'; // Assuming AppProviders will wrap context if needed. For now, just a wrapper.
+import BottomNavbar from '@/app/(components)/BottomNavbar';
 
 export const metadata: Metadata = {
   title: 'ScanVerse',
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className="font-body antialiased">
         <AppProviders>
           {children}
+          <BottomNavbar />
           <Toaster />
         </AppProviders>
       </body>

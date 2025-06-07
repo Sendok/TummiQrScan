@@ -10,17 +10,17 @@ export default function Header() {
           <ScanLine className="h-8 w-8 text-primary" />
           <h1 className="text-2xl md:text-3xl font-headline font-bold">ScanVerse</h1>
         </Link>
-        <nav className="flex items-center gap-2 sm:gap-4">
+        <nav className="hidden sm:flex items-center gap-2 sm:gap-4">
           <Button variant="ghost" asChild>
             <Link href="/" className="flex items-center gap-1 sm:gap-2 text-sm sm:text-base">
               <QrCode className="h-4 w-4 sm:h-5 sm:w-5" />
-              <span className="hidden sm:inline">Scanner</span>
+              <span>Scanner</span>
             </Link>
           </Button>
           <Button variant="ghost" asChild>
             <Link href="/history" className="flex items-center gap-1 sm:gap-2 text-sm sm:text-base">
               <History className="h-4 w-4 sm:h-5 sm:w-5" />
-              <span className="hidden sm:inline">History</span>
+              <span>History</span>
             </Link>
           </Button>
         </nav>

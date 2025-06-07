@@ -45,7 +45,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground">
       <Header />
-      <main className="flex-grow container mx-auto px-4 py-8 flex flex-col items-center justify-center">
+      <main className="flex-grow container mx-auto px-4 pt-8 pb-20 sm:py-8 flex flex-col items-center justify-center">
         <div className="w-full max-w-md text-center">
           <h2 className="text-3xl sm:text-4xl font-headline font-bold mb-6 text-primary-foreground">
             Ready to Scan?
